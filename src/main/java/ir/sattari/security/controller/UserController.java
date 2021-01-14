@@ -11,11 +11,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
-/**
- * @author Saeed Satari
- */
-
 @RestController
 @RequestMapping(value = "/users", produces = MediaType.APPLICATION_JSON_VALUE)
 @ApiOperation(value = "non-secure-user-controller", notes = "It's a Non Secure User API.")
